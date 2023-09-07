@@ -1,0 +1,31 @@
+:root {/* Color Theme Swatches in Hex */
+    --colorC1: #DCE4F2;
+    --colorC2: #F2B872;
+    --colorC3: #733F12;
+    --colorC4: #D98032;
+    --colorC5: #F2C49B;
+
+    --black:#000;
+    --white:#fff;
+    --dark:#222;
+}
+
+body {
+    background-color: var(--dark);
+}
+
+header {
+    background: var(--colorC3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color:#fff;
+}
+
+li {
+    display:inline-block;
+    margin:10px;
+}
