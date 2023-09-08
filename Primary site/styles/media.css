@@ -1,0 +1,16 @@
+    @media screen and (max-width:980px){
+        ul {
+            display:none;
+        }  
+
+        .fa-solid, .fa-bars {
+            display: flex;
+            color:#fff;
+            font-size: 30px;
+        }
+        .fa-solid:hover, .fa-bars:hover {
+            color:var(--colorC5);
+            transition: .4s;
+            transform: scale(1.1);
+        }
+}
