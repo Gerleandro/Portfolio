@@ -17,21 +17,55 @@ body {
 header {
     background: var(--colorC3);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding:10px;
+    border-bottom:var(--colorC4) solid 2px;
+    height:60px;
 }
 
 .title {
     line-height: 30px;
-    font-family: 'poppinsbold';
+    font-family: 'poppinslight';
     color:var(--colorC1)
 
 }
 
+.logo {
+    border-radius: 50%;
+    border:var(--colorC1) solid 3px;
+    width:60px;
+    margin:10px;
+}
+
 .link {
     font-family: 'poppinsmedium';
-    margin:10px
+    margin:10px;
+    font-size: 20px;
+}
+.link:hover {
+    color: var(--colorC5);
+    cursor: pointer;
+    transition: .4s;
+}
+.register {
+    border:2px solid var(--colorC1);
+    border-radius: 30px 0px 0px 30px;
+    margin-right:-10px;
+    padding:10px;
+}
+.login {
+    border:2px solid var(--colorC1);
+    border-radius: 0px 30px 30px 0px;
+    margin-left:-15px;
+    padding:10px;
+}
+.register:hover, .login:hover {
+    background-color: var(--colorC2);
+    color:var(--colorC3);
+    transition:.4s;
+    border:none;
+    padding:12px;
 }
 
 li {
