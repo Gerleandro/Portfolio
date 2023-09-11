@@ -39,7 +39,6 @@
 }
 
 @font-face {
-    font-family: 'poppinsregular';
     font-family: 'poppinssemibold';
     src: url('../components/fonts/poppins-semibold-webfont.woff2') format('woff2'),
          url('../components/fonts/poppins-semibold-webfont.woff') format('woff');

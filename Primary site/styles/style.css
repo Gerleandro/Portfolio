@@ -79,3 +79,36 @@ li {
     display:inline-block;
     margin:10px;
 }
+
+
+main {
+    background: var(--colorC3);
+    text-align: center;
+}
+
+h1, p {
+    font-family: 'poppinsregular';
+    color:var(--colorC2); 
+}
+h1 {
+    text-align: start;
+    margin:10px;
+    color:var(--colorC2);
+}
+
+.textBox1 {
+    margin:20px;
+    width: 500px;
+    text-indent: 2rem;
+    line-height: 30px;
+}
+#meImg {
+    width:300px;
+}
+#meImg:hover {
+    box-shadow: var(--white);
+}
+article {
+    display: flex;
+    align-items: center;
+}
