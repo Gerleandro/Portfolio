@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --colorC1: #DCE4F2;
+    --colorC2: #F2B872;
+    --colorC3: #733F12;
+    --colorC4: #D98032;
+    --colorC5: #F2C49B;
+
+    --black:#000;
+    --white:#fff;
+    --dark:#222;
+
+    --linkedin:#126bc4;
+}
+
+body {
+    height:100vh;
+    background-color:var(--colorC5);
+}
+
+header {
+    background:linear-gradient(to bottom, var(--colorC3),var(--colorC4));
+    display:flex;
+    justify-content: space-evenly;
+    padding:10px;
+}
+
+#logo{
+    border-radius: 50%;
+    width:60px;
+}
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-linkedin-in, .fa-github, .fa-codepen, .fa-instagram, .fa-youtube {
+    height:40px;
+    width:40px;
+    margin:10px;
+    text-align: center;
+    border-radius:5px;
+    align-items: center;
+}
+.fa-linkedin-in:hover, .fa-github:hover, .fa-codepen:hover, .fa-instagram:hover {
+    transform: scale(1.2);
+    transition:.4s;
+}
+
+.fa-linkedin-in {
+    font-size: 40px;
+    color:var(--white);
+    background: var(--linkedin);
+}
+.fa-instagram {
+    font-size: 40px;
+    color:var(--white);
+    background:linear-gradient(30deg, #fcc108,#ff081b,#d80db5);
+}
+.fa-github {
+    font-size: 40px;
+    color:var(--white);
+}
+.fa-codepen {
+    font-size: 40px;
+    color:var(--white);
+}
