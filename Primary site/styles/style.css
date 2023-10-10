@@ -8,20 +8,20 @@
 
 a {
     text-decoration: none;
-    color:var(--white)
+    color:var(--colorC2)
 }
 a:hover {
     transition: .4s;
     transform: scale(1.1);
-    color: var(--colorC4);
+    color: var(--white);
 }
 
 :root {
-    --colorC1: #DCE4F2;
-    --colorC2: #F2B872;
-    --colorC3: #733F12;
-    --colorC4: #D98032;
-    --colorC5: #F2C49B;
+    --colorC1: #343E4C;
+    --colorC2: #D0A898;
+    --colorC3: #B85343;
+    --colorC4: #aa3645;
+    --colorC5: #721F24;
 
     --black:#000;
     --white:#fff;
@@ -45,6 +45,7 @@ header {
 #logo{
     border-radius: 50%;
     width:60px;
+    border:var(--colorC2 ) solid 5px ;
 }
 .link {
     display: flex;
@@ -90,27 +91,27 @@ header {
     background: var(--colorC3);
     height:40px;
 }
-
+ 
 #search-box {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
 .fa-magnifying-glass {
-    color:var(--colorC1);
-    border-bottom:2px solid var(--colorC4);
-    font-size: 20px;
+    color:var(--colorC2);
+    border-bottom:2px solid var(--colorC2);
+    font-size: 22px;
 }
 .fa-magnifying-glass:hover {
-    color:var(--colorC4);
+    color:var(--white);
     transition: .4s;
 }
 input {
     background-color: transparent;
     outline: none;
     border:none;
-    border-bottom:2px solid var(--colorC4);
+    border-bottom:2px solid var(--colorC2);
     text-align: center;
     color:var(--white);
     width:300px;
@@ -139,21 +140,21 @@ article {
     text-indent: 1.5rem;
 }
 
-
-
 #me {
-    width:220px;
-    border-radius:10px;
+    width:290px;
+    border-radius:50%;
     border-bottom:3px solid var(--colorC3);
-    margin:10px;
-    box-shadow: -15px 10px 20px  #00000099;
+    margin:20px;
+    box-shadow: 10px 10px 20px  #00000099;
+}
+#me:hover {
+    transition: 1.4s;
+    transform: scale(1.1);
 }
 
 footer {
     background:var(--dark);
     width:100%;
-    height:30%;
-    color:var(--colorC1);
+    color:var(--colorC2);
     text-align: center;
-    padding:10px;
 }
